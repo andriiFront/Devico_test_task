@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/devico_test_task/static/css/main.85fa6500.css",
-    "main.js": "/devico_test_task/static/js/main.7063f365.js",
+    "main.css": "/devico_test_task/static/css/main.69656417.css",
+    "main.js": "/devico_test_task/static/js/main.c02adefd.js",
     "index.html": "/devico_test_task/index.html",
-    "main.85fa6500.css.map": "/devico_test_task/static/css/main.85fa6500.css.map",
-    "main.7063f365.js.map": "/devico_test_task/static/js/main.7063f365.js.map"
+    "main.69656417.css.map": "/devico_test_task/static/css/main.69656417.css.map",
+    "main.c02adefd.js.map": "/devico_test_task/static/js/main.c02adefd.js.map"
   },
   "entrypoints": [
-    "static/css/main.85fa6500.css",
-    "static/js/main.7063f365.js"
+    "static/css/main.69656417.css",
+    "static/js/main.c02adefd.js"
   ]
 }
