@@ -1,9 +1,11 @@
 import './App.css';
+import React, { useState } from 'react';
 import animals from './animals.json'
 
 function App() {
   const { pigs, chickens, cows } = animals;
-  const totalNumberLegs = (pigs + cows) * 4 + chickens * 2;
+  const [totalNumberLegs, setTotalNumberLegs] = useState(null);
+  const legsCounter = () => (pigs + cows) * 4 + chickens * 2;
   
   return (
     <div className="App">
@@ -22,9 +24,15 @@ function App() {
         <p>{cows}</p>
       </div>
       <h2>Total number of animal legs:</h2>
-      <p className='App-number-legs'>
-        <b>{totalNumberLegs}</b>
-      </p>
+      <button
+        className='App-number-legs'
+        onClick={() => {
+          setTotalNumberLegs(legsCounter())
+        }}
+      >
+        Count total number legs
+      </button>
+      <h2>{totalNumberLegs}</h2>
     </div>
   );
 }
